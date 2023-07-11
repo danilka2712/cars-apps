@@ -1,0 +1,1 @@
+import { default as swiper } from "./swiper.svelte"
