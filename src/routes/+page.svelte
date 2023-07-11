@@ -113,7 +113,7 @@
             class="lg:p-12 p-8 lg:w-[90%] bg-white/80 rounded-xl lg:drop-shadow-[0px_0px_100px_rgba(22,163,74,0.20)] lg:shadow-none shadow-md"
         >
             <h2
-                class=" lg:text-2xl text-xl font-semibold leading-9 tracking-tight"
+                class="text-2xl lg:font-semibold font-medium lg:leading-9 tracking-tight"
             >
                 Оставьте заявку, чтобы узнать сумму выкупа вашего автомобиля
             </h2>
@@ -196,7 +196,7 @@
 </section>
 <section id="transaction" class="lg:mb-32 mb-24 max-w-7xl lg:mx-auto mx-4">
     <div>
-        <h1 class="lg:text-5xl text-3xl font-medium mb-14">
+        <h1 class="lg:text-5xl text-3xl font-medium lg:mb-14 mb-8">
             Как происходит сделка
         </h1>
     </div>
