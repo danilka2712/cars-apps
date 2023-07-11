@@ -112,7 +112,9 @@
         <div
             class="lg:p-12 p-8 lg:w-[90%] bg-white/80 rounded-xl drop-shadow-[0px_0px_100px_rgba(22,163,74,0.20)]"
         >
-            <h2 class=" text-2xl font-semibold leading-9 tracking-tight">
+            <h2
+                class=" lg:text-2xl text-xl font-semibold leading-9 tracking-tight"
+            >
                 Оставьте заявку, чтобы узнать сумму выкупа вашего автомобиля
             </h2>
             <form class="pt-6 gap-4 flex flex-col" action="">
@@ -391,9 +393,9 @@
 </section>
 
 <section
-    class="lg:py-20 py-10 max-w-7xl lg:mx-auto mx-4 lg:flex flex-col-reverse lg:flex-row lg:space-x-20 items-center"
+    class="lg:py-20 py-10 lg:max-w-7xl lg:mx-auto mx-4 lg:flex flex-col-reverse lg:flex-row lg:space-x-20 lg:items-center"
 >
-    <div class="lg:w-1/2">
+    <div class="lg:w-1/2 w-full">
         <div id="map" class="h-96" />
     </div>
     <div class="lg:w-1/2">
@@ -401,17 +403,17 @@
             Наши
             <span class=" text-green-600">контакты</span>
         </h1>
-        <p class="lg:text-lg w-96 text-black/70">
+        <p class="lg:text-lg lg:w-96 text-black/70">
             Работаем с 8:00 до 22:00, без выходных, для вашего удобства.
         </p>
         <div class="my-4">
-            <p class="lg:text-lg w-96 text-black/70">Телефон</p>
+            <p class="lg:text-lg lg:w-96 text-black/70">Телефон</p>
             <a class="lg:text-lg text-black/70 font-medium" href="/"
                 >+7 3812 592 639</a
             >
         </div>
         <div class="mb-4">
-            <p class="lg:text-lg w-96 text-black/70">Адрес выкупа</p>
+            <p class="lg:text-lg lg:w-96 text-black/70">Адрес выкупа</p>
 
             <a class="lg:text-lg text-black/70 font-medium" href="/"
                 >Омская область, г. Омск</a
