@@ -108,48 +108,9 @@
             </ul>
         </div>
     </div>
-    <div>
-        <form method="post" class="pt-6 gap-4 flex flex-col">
-            <Input title="Марка автомобиля*" placeholder="Например, Volvo" />
-            <div>
-                <label for="customRange2" class="text-gray-700"
-                    >Год выпуска: {customRange2.toFixed()}</label
-                >
-                <input
-                    type="range"
-                    class="transparent h-1.5 w-full cursor-pointer appearance-none rounded-lg border-transparent accent-green-600 bg-neutral-200"
-                    bind:value={customRange2}
-                    min="1995"
-                    max="2023"
-                    step="0.3"
-                    id="customRange2"
-                />
-                <div>
-                    <ul class="flex justify-between 1 text-[12px]">
-                        <li>1991</li>
-                        <li>2002</li>
-
-                        <li>2009</li>
-                        <li>2016</li>
-                        <li>2023</li>
-                    </ul>
-                </div>
-            </div>
-            <Select />
-            <Select />
-
-            <Input
-                title="Номер для связи*"
-                placeholder="Например, 8-999-888-888"
-            />
-            <button class="p-3 bg-green-600 rounded-lg font-medium text-white"
-                >Отправить заявку</button
-            >
-        </form>
-    </div>
     <div class="lg:w-1/2 lg:flex lg:justify-end mt-14 lg:mt-0">
         <div
-            class="lg:p-12 p-8 lg:w-[90%] bg-white/80 rounded-xl lg:drop-shadow-[0px_0px_100px_rgba(22,163,74,0.20)]"
+            class="lg:p-12 p-8 lg:w-[90%] bg-white/80 rounded-xl lg:drop-shadow-[0px_0px_100px_rgba(22,163,74,0.20)] lg:shadow-none shadow-md"
         >
             <h2
                 class=" lg:text-2xl text-xl font-semibold leading-9 tracking-tight"
