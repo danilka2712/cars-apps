@@ -149,7 +149,7 @@
     </div>
     <div class="lg:w-1/2 lg:flex lg:justify-end mt-14 lg:mt-0">
         <div
-            class="lg:p-12 p-8 lg:w-[90%] bg-white/80 rounded-xl drop-shadow-[0px_0px_100px_rgba(22,163,74,0.20)]"
+            class="lg:p-12 p-8 lg:w-[90%] bg-white/80 rounded-xl lg:drop-shadow-[0px_0px_100px_rgba(22,163,74,0.20)]"
         >
             <h2
                 class=" lg:text-2xl text-xl font-semibold leading-9 tracking-tight"
