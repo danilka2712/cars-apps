@@ -272,7 +272,7 @@
     </div>
 </section>
 <section id="customers" class="max-w-7xl lg:mx-auto mx-4">
-    <div class="flex mb-12">
+    <div class="flex lg:mb-12 mb-8">
         <div class="lg:w-2/3">
             <h1 class="lg:text-5xl text-3xl font-medium mb-4">
                 <span class="text-green-600">Довольные</span> клиенты
