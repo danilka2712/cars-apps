@@ -306,7 +306,7 @@
 
 <section class="lg:mb-32 mb-24 lg:mt-32 mt-20 max-w-7xl lg:mx-auto mx-4">
     <div class="lg:w-1/2">
-        <h1 class="lg:text-5xl text-3xl font-medium lg:mb-14 mb-10">
+        <h1 class="lg:text-5xl text-3xl font-medium lg:mb-14 mb-8">
             Почему к нам стоит
             <span class=" text-green-600">обратиться</span>
         </h1>
@@ -361,7 +361,9 @@
 
 <section class=" max-w-7xl lg:mx-auto mx-4 mb-20">
     <div class="">
-        <h1 class=" lg:text-center lg:text-5xl text-3xl font-medium mb-8">
+        <h1
+            class=" lg:text-center lg:text-5xl text-3xl font-medium lg:mb-8 mb-4"
+        >
             Выкупаем автомобили <br />
             <span class=" text-green-600">по всей области</span>
         </h1>
@@ -369,7 +371,7 @@
             Посмотрите сами, если не верите:
         </p>
     </div>
-    <div class="mt-12 w-full flex lg:flex-row flex-col justify-between">
+    <div class="lg:mt-12 mt-8 w-full flex lg:flex-row flex-col justify-between">
         <ul
             class="grid list-disc marker:text-green-600 marker:text-2xl lg:grid-cols-4 grid-cols-1 list-inside w-full gap-2"
         >
