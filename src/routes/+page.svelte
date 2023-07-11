@@ -69,7 +69,7 @@
 
 <section
     id="main"
-    class="lg:mx-auto mx-4 lg:flex lg:max-w-7xl items-center justify-between lg:px-0"
+    class="lg:mx-auto mx-4 lg:flex lg:max-w-7xl lg:items-center lg:justify-between lg:px-0"
 >
     <div class="lg:w-1/2">
         <div class="lg:w-[95%]">
@@ -117,7 +117,7 @@
             >
                 Оставьте заявку, чтобы узнать сумму выкупа вашего автомобиля
             </h2>
-            <form class="pt-6 gap-4 flex flex-col" action="">
+            <form method="post" class="pt-6 gap-4 flex flex-col">
                 <Input
                     title="Марка автомобиля*"
                     placeholder="Например, Volvo"
