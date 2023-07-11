@@ -1,6 +1,7 @@
 <script lang="ts">
     export let title: string = "Номер телефона";
     export let placeholder: string = "6575676";
+    export let text = "";
 </script>
 
 <label class="block">
@@ -16,6 +17,7 @@
         ></span
     >
     <input
+        bind:value={text}
         type="text"
         class="
     mt-1

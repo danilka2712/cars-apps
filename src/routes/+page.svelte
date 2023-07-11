@@ -1,12 +1,54 @@
-<script>
+<script lang="ts">
     import Input from "$lib/components/input/input.svelte";
     import Select from "$lib/components/select/select.svelte";
     import SwiperReviews from "$lib/components/swiper-reviews/swiper-reviews.svelte";
     import Swiper from "$lib/components/swiper/swiper.svelte";
     import { onMount } from "svelte";
-    let customRange2 = 2000;
+    import { message } from "../store";
     let map;
 
+    async function sendTelegramMessage(message) {
+        buttonSumbit = "Отправка...";
+        buttonActive = true;
+        const token = "6054894674:AAGe7n3CbqnpLTAAxg_wjJRNsW-klai_cyg";
+        const chatId = "596613157";
+
+        const url = `https://api.telegram.org/bot${token}/sendMessage`;
+        const options = {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                chat_id: chatId,
+
+                text: `<b>${new Date().toLocaleDateString()}\nНовый заказ! </b>\n\nМарка авто: ${
+                    message.car
+                }\nГод: ${message.year.toFixed()}\nСостояние авто: ${
+                    message.condition
+                }\nСвязь: ${message.connection}\nТелефон: ${message.phone}`,
+                parse_mode: "html",
+            }),
+        };
+
+        try {
+            const response = await fetch(url, options);
+            const data = await response.json();
+            if (data.ok) {
+                buttonSumbit = "Отправлено!";
+                setTimeout(() => {
+                    buttonSumbit = "Отправить заявку";
+                    buttonActive = false;
+                }, 5000);
+            } else {
+                alert("Ошибка, попробуйте еще раз!");
+            }
+        } catch (error) {
+            console.error(error);
+        }
+    }
+    let buttonSumbit = "Отправить заявку";
+    let buttonActive = false;
     onMount(() => {
         // @ts-ignore
         DG.then(function () {
@@ -117,19 +159,24 @@
             >
                 Оставьте заявку, чтобы узнать сумму выкупа вашего автомобиля
             </h2>
-            <form method="post" class="pt-6 gap-4 flex flex-col">
+            <form
+                method="GET"
+                on:submit|preventDefault={() => sendTelegramMessage($message)}
+                class="pt-6 gap-4 flex flex-col"
+            >
                 <Input
+                    bind:text={$message.car}
                     title="Марка автомобиля*"
                     placeholder="Например, Volvo"
                 />
                 <div>
                     <label for="customRange2" class="text-gray-700"
-                        >Год выпуска: {customRange2.toFixed()}</label
+                        >Год выпуска: {$message.year.toFixed()}</label
                     >
                     <input
                         type="range"
                         class="transparent h-1.5 w-full cursor-pointer appearance-none rounded-lg border-transparent accent-green-600 bg-neutral-200"
-                        bind:value={customRange2}
+                        bind:value={$message.year}
                         min="1995"
                         max="2023"
                         step="0.3"
@@ -146,16 +193,41 @@
                         </ul>
                     </div>
                 </div>
-                <Select />
-                <Select />
-
+                <Select
+                    title="Состояние автомобиля"
+                    options={[
+                        "С автомобилем все в порядке",
+                        "Автомобиль битый",
+                        "Запретный авто с ограничениями и без документов",
+                        "Находится в кредите",
+                        "Годен только на металлолом",
+                        "Спецтехника или большегруз",
+                        "Выкуп после смерти хозяина",
+                        "Другое",
+                    ]}
+                    bind:addOption={$message.condition}
+                />
+                <Select
+                    title="Как с вами связаться"
+                    options={[
+                        "По номеру телефона",
+                        "По Whatsapp",
+                        "По Telegram",
+                        "По Viber",
+                    ]}
+                    bind:addOption={$message.connection}
+                />
+                {$message.phone}
                 <Input
                     title="Номер для связи*"
                     placeholder="Например, 8-999-888-888"
+                    bind:text={$message.phone}
                 />
                 <button
-                    class="p-3 bg-green-600 rounded-lg font-medium text-white"
-                    >Отправить заявку</button
+                    disabled={buttonActive}
+                    type="submit"
+                    class="p-3 bg-green-600 disabled:bg-slate-300 rounded-lg font-medium text-white"
+                    >{buttonSumbit}</button
                 >
             </form>
         </div>
