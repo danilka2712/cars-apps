@@ -302,7 +302,12 @@
                 >
                     2
                 </div>
-                <h3 class="text-2xl font-medium">Совместная сделка</h3>
+                <h3
+                    class="lg:text-2xl
+                text-xl font-medium"
+                >
+                    Совместная сделка
+                </h3>
             </div>
             <p class=" text-black/70 lg:text-lg">
                 Вы оставляете заявку, указываете данные об авто и контактный
@@ -317,7 +322,12 @@
                 >
                     3
                 </div>
-                <h3 class="text-2xl font-medium">Совместная сделка</h3>
+                <h3
+                    class="lg:text-2xl
+                text-xl font-medium"
+                >
+                    Совместная сделка
+                </h3>
             </div>
             <p class=" text-black/70 lg:text-lg">
                 Вы оставляете заявку, указываете данные об авто и контактный
@@ -392,7 +402,12 @@
                 >
                     <img src="icons/flash.svg" alt="flash" />
                 </div>
-                <h3 class="text-2xl font-medium">Скорость</h3>
+                <h3
+                    class="lg:text-2xl
+                text-xl font-medium"
+                >
+                    Скорость
+                </h3>
             </div>
             <p class=" text-black/70 lg:text-lg">
                 Отвечаем в течение 10-15 минут. Приезжаем на место оценки и
@@ -406,7 +421,12 @@
                 >
                     <img src="icons/thumbs-up.svg" alt="thumbs-up" />
                 </div>
-                <h3 class="text-2xl font-medium">Честность</h3>
+                <h3
+                    class="lg:text-2xl
+                text-xl font-medium"
+                >
+                    Честность
+                </h3>
             </div>
             <p class=" text-black/70 lg:text-lg">
                 Справедливо оцениваем автомобиль — можем предложить до 94% от
@@ -424,7 +444,12 @@
                         alt="coins-stacked"
                     />
                 </div>
-                <h3 class="text-2xl font-medium">Выгодность</h3>
+                <h3
+                    class="lg:text-2xl
+                text-xl font-medium"
+                >
+                    Выгодность
+                </h3>
             </div>
             <p class=" text-black/70 lg:text-lg">
                 Бесплатно забираем автомобиль на эвакуаторе из любой части
