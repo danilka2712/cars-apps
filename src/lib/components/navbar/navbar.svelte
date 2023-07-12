@@ -78,7 +78,7 @@
             <div
                 transition:slide={{
                     delay: 250,
-                    duration: 300,
+                    duration: 600,
                     easing: quintOut,
                     axis: "y",
                 }}
