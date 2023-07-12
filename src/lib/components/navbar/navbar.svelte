@@ -14,7 +14,7 @@
             </a>
         </div>
         <div class="flex lg:hidden z-40">
-            {#if mobileMenuOpen}
+            {#if !mobileMenuOpen}
                 <button
                     on:click={() => (mobileMenuOpen = !mobileMenuOpen)}
                     type="button"
@@ -62,8 +62,10 @@
         </div>
 
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" class=" font-semibold leading-6 text-gray-900"
-                >8-908-119-72-79 | 24/7
+            <a
+                href="tel:+73812592639"
+                class=" font-semibold leading-6 text-gray-900"
+                >+7 3812 592 639 | 24/7
             </a>
         </div>
     </nav>

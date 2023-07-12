@@ -226,7 +226,7 @@
                 <button
                     disabled={buttonActive}
                     type="submit"
-                    class="p-3 bg-green-600 disabled:bg-slate-300 rounded-lg font-medium text-white"
+                    class="p-3 bg-green-600 hover:bg-green-700 transition duration-300 ease-in-out disabled:bg-slate-300 rounded-lg font-medium text-white"
                     >{buttonSumbit}</button
                 >
             </form>
@@ -389,7 +389,7 @@
                 <div
                     class="h-16 w-16 rounded-lg bg-green-100 items-center justify-center flex text-green-700 lg:text-xl text-lg font-semibold"
                 >
-                    1
+                    <img src="icons/flash.svg" alt="flash" />
                 </div>
                 <h3 class="text-2xl font-medium">Скорость</h3>
             </div>
@@ -403,7 +403,7 @@
                 <div
                     class="h-16 w-16 rounded-lg bg-green-100 items-center justify-center flex text-green-700 lg:text-xl text-lg font-semibold"
                 >
-                    2
+                    <img src="icons/thumbs-up.svg" alt="thumbs-up" />
                 </div>
                 <h3 class="text-2xl font-medium">Честность</h3>
             </div>
@@ -418,7 +418,10 @@
                 <div
                     class="h-16 w-16 rounded-lg bg-green-100 items-center justify-center flex text-green-700 lg:text-xl text-lg font-semibold"
                 >
-                    3
+                    <img
+                        src="/icons/coins-stacked-02.svg"
+                        alt="coins-stacked"
+                    />
                 </div>
                 <h3 class="text-2xl font-medium">Выгодность</h3>
             </div>
