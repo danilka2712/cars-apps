@@ -9,7 +9,7 @@
     >
         <div class="flex lg:flex-1">
             <a href="#" class="-m-1.5 p-1.5">
-                <span class="sr-only">Your Company</span>
+                <span class="sr-only">Выкуп авто</span>
                 <img class="h-10 w-auto" src="/logotype.svg" alt="" />
             </a>
         </div>
@@ -48,12 +48,12 @@
             <!-- Background backdrop, show/hide based on slide-over state. -->
             <div class="fixed inset-0 z-10" />
             <div
-                class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+                class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#f8f8f8] px-6 py-8 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
             >
                 <div class="flex items-center justify-between">
                     <a href="#" class="-m-1.5 p-1.5">
-                        <span class="sr-only">Your Company</span>
-                        <img class="h-8 w-auto" src="/logotype.svg" alt="" />
+                        <span class="sr-only">Выкуп авто</span>
+                        <img class="h-10 w-auto" src="/logotype.svg" alt="" />
                     </a>
                     <button
                         on:click={() => (mobileMenuOpen = !mobileMenuOpen)}
