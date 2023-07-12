@@ -30,24 +30,37 @@
             },
         });
     });
+    let items = [
+        { title: "Toyota Rav 4", img: "/img/photo_2023-07-12_23-42-37.webp" },
+        { title: "Datsun", img: "/img/photo_2023-07-13_00-02-38.webp" },
+        { title: "Datsun", img: "/img/photo_2023-07-13_00-02-46.webp" },
+        { title: "Datsun", img: "/img/photo_2023-07-13_00-03-04.webp" },
+        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
+        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
+        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
+        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
+        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
+        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
+        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
+        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
+    ];
 </script>
 
 <div class="swiper mySwiper lg:mt-20 mt-6">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 12</div>
+        {#each items as item}
+            <div class="swiper-slide">
+                <div class="h-3/4">
+                    <img
+                        class="h-full w-full object-cover rounded-t-xl"
+                        src={item.img}
+                        alt=""
+                    />
+                </div>
+                <p class="pt-2 text-lg font-semibold">{item.title}</p>
+            </div>
+        {/each}
     </div>
 </div>
 
@@ -62,7 +75,7 @@
 
         .swiper-slide {
             border-radius: 20px;
-            text-align: center;
+            text-align: start;
             font-size: 18px;
             background: #ffffff;
 
@@ -78,6 +91,7 @@
         .swiper {
             width: 100%;
             height: 80vh;
+            min-height: 80vh;
             margin-left: auto;
             margin-right: auto;
         }
@@ -89,8 +103,7 @@
             background: #ffffff;
             height: calc((100% - 30px) / 3) !important;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            flex-direction: column;
         }
     }
 </style>
