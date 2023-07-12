@@ -109,12 +109,15 @@
     }
 </script>
 
+<svelte:head>
+    <title>Выкуп авто | Омск</title>
+</svelte:head>
 <section
     id="main"
     class="lg:mx-auto mx-4 lg:flex lg:max-w-7xl lg:items-center lg:justify-between lg:px-0"
 >
     <div class="lg:w-1/2">
-        <div class="lg:w-[95%]">
+        <div class="">
             <h1 class="lg:text-5xl text-3xl font-medium mb-4">
                 Выкуп авто в <span class="text-green-600">Омске</span> и
                 <span class="text-green-600">Омской области</span>
@@ -131,22 +134,20 @@
             <ul
                 class="flex flex-col gap-1 lg:text-lg text-black/70 list-disc list-outside pl-5 marker:text-green-600 marker:text-2xl"
             >
-                <li class="">Оформляем сделку за час.</li>
-                <li class="">
+                <li>Оформляем сделку за час.</li>
+                <li>
                     Справедливо оцениваем стоимость автомобиля в интересах обеих
                     сторон.
                 </li>
-                <li class="">
+                <li>
                     Выплачиваем всю сумму на месте оформления договора удобным
                     для вас способом.
                 </li>
-                <li class="">
+                <li>
                     Бесплатно забираем авто на эвакуаторе в пределах Омской
                     области.
                 </li>
-                <li class="">
-                    Выкупаем любые марки авто от 1991 года выпуска.
-                </li>
+                <li>Выкупаем любые марки авто от 1991 года выпуска.</li>
             </ul>
         </div>
     </div>
