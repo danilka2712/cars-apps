@@ -48,7 +48,7 @@
             <!-- Background backdrop, show/hide based on slide-over state. -->
             <div class="fixed inset-0 z-10" />
             <div
-                class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#f8f8f8] py-8 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+                class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#f8f8f8] px-4 py-8 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
             >
                 <div class="flex items-center justify-between">
                     <a href="#" class="-m-1.5 p-1.5">
