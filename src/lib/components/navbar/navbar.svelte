@@ -1,8 +1,8 @@
 <script>
-    let mobileMenuOpen = true;
     import { slide } from "svelte/transition";
     import { quintInOut, quintOut } from "svelte/easing";
-    import { beforeUpdate, onMount } from "svelte";
+    import { beforeUpdate } from "svelte";
+    let mobileMenuOpen = false;
 
     beforeUpdate(() => {
         if (mobileMenuOpen) {
