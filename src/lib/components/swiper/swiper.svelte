@@ -32,17 +32,20 @@
     });
     let items = [
         { title: "Toyota Rav 4", img: "/img/photo_2023-07-12_23-42-37.webp" },
-        { title: "Datsun", img: "/img/photo_2023-07-13_00-02-38.webp" },
-        { title: "Datsun", img: "/img/photo_2023-07-13_00-02-46.webp" },
-        { title: "Datsun", img: "/img/photo_2023-07-13_00-03-04.webp" },
-        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
-        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
-        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
-        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
-        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
-        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
-        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
-        { title: "Datsun", img: "/img/photo_2023-07-12_23-42-37.webp" },
+        { title: "Toyota Platz", img: "/img/photo_2023-07-13_00-02-46.webp" },
+        { title: "Suzuki Aerio", img: "/img/photo_2023-07-13_00-03-04.webp" },
+        { title: "Audi 100", img: "/img/photo_2023-07-13_13-33-15.webp" },
+        {
+            title: "Mercedes-Benz MB100",
+            img: "/img/photo_2023-07-13_13-31-09.webp",
+        },
+        { title: "Ford Escape", img: "/img/photo_2023-07-13_00-02-38.webp" },
+        { title: "BYD F3", img: "/img/photo_2023-07-13_13-33-10.webp" },
+        { title: "Honda CR-V", img: "/img/photo_2023-07-13_13-31-19.webp" },
+        { title: "Honda Civic", img: "/img/photo_2023-07-13_13-31-23.webp" },
+        { title: "Nissan Navara", img: "/img/photo_2023-07-13_13-33-21.webp" },
+        { title: "УАЗ-3303", img: "/img/photo_2023-07-13_13-38-54.webp" },
+        { title: "ВАЗ-2114", img: "/img/photo_2023-07-13_13-38-49.webp" },
     ];
 </script>
 
