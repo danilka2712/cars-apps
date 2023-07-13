@@ -2,7 +2,7 @@
     import Swiper from "swiper";
     import { Navigation, Pagination, Grid } from "swiper/modules";
     // import Swiper and modules styles
-
+    import Youtube from "svelte-youtube-embed";
     import { onMount } from "svelte";
 
     let swiper;
@@ -37,32 +37,73 @@
     <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide">
-            <iframe
-                width="420"
-                height="315"
-                src="https://www.youtube.com/embed/NaTjoNHdd3Q"
-            />
+            <Youtube
+                id="RpzmtDH3u0Q"
+                animations={false}
+                --overlay-bg-color="#ffffff0"
+            >
+                <img
+                    slot="thumbnail"
+                    alt="A video on svelte"
+                    class="w-full h-full object-cover rounded-lg"
+                    src="/img/photos_627e0b4b0ec0d.png"
+                />
+                <button>
+                    <img class="w-16" src="/icons/youtube.svg" alt="" />
+                </button>
+            </Youtube>
         </div>
         <div class="swiper-slide">
-            <iframe
-                width="420"
-                height="315"
-                src="https://www.youtube.com/embed/RpzmtDH3u0Q"
-            />
+            <Youtube
+                id="NaTjoNHdd3Q"
+                animations={false}
+                --overlay-bg-color="#ffffff0"
+            >
+                <img
+                    slot="thumbnail"
+                    alt="A video on svelte"
+                    class="w-full h-full object-cover rounded-lg"
+                    src="/img/photos_62cd590d8fbde.png"
+                />
+                <button>
+                    <img class="w-16" src="/icons/youtube.svg" alt="" />
+                </button>
+            </Youtube>
         </div>
         <div class="swiper-slide">
-            <iframe
-                width="420"
-                height="315"
-                src="https://www.youtube.com/embed/W8IX8XouZE4"
-            />
+            <Youtube
+                id="F-x6TnxsUbA"
+                animations={false}
+                --overlay-bg-color="#ffffff0"
+            >
+                <img
+                    slot="thumbnail"
+                    alt="A video on svelte"
+                    class="w-full h-full object-cover rounded-lg"
+                    src="/img/photos_62bc714584778.png"
+                />
+                <button>
+                    <img class="w-16" src="/icons/youtube.svg" alt="" />
+                </button>
+            </Youtube>
         </div>
         <div class="swiper-slide">
-            <iframe
-                width="420"
-                height="315"
-                src="https://www.youtube.com/embed/RpzmtDH3u0Q"
-            />
+            <Youtube
+                id="W8IX8XouZE4"
+                animations={false}
+                --title-color="#111111"
+                --overlay-bg-color="#ffffff0"
+            >
+                <img
+                    slot="thumbnail"
+                    alt="A video on svelte"
+                    class="w-full h-full object-cover rounded-lg"
+                    src="/img/photos_62bc714584778.png"
+                />
+                <button>
+                    <img class="w-16" src="/icons/youtube.svg" alt="" />
+                </button>
+            </Youtube>
         </div>
     </div>
 </div>
@@ -70,19 +111,14 @@
 <style>
     .swiper {
         width: 100%;
-        height: 45vh;
+        height: fit;
         margin-left: auto;
         margin-right: auto;
     }
 
     .swiper-slide {
         border-radius: 20px;
-        text-align: center;
-        font-size: 18px;
+        font-size: 16px;
         background: #ffffff;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 </style>

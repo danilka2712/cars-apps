@@ -25,6 +25,7 @@
 	"type": "module",
 	"dependencies": {
 		"@2gis/mapgl": "^1.37.2",
+		"svelte-youtube-embed": "^0.2.1",
 		"swiper": "^10.0.3"
 	}
 }
