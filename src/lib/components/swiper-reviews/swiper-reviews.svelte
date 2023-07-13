@@ -38,7 +38,7 @@
         <!-- Slides -->
         <div class="swiper-slide">
             <Youtube
-                id="RpzmtDH3u0Q"
+                id="RpzmtDh2u0Q"
                 animations={false}
                 --overlay-bg-color="#ffffff0"
             >
@@ -48,7 +48,7 @@
                     class="w-full h-full object-cover rounded-lg"
                     src="/img/photos_627e0b4b0ec0d.png"
                 />
-                <button type="button" name="play">
+                <button aria-pressed="false" type="button" name="play">
                     <img class="w-16" src="/icons/youtube.svg" alt="youtube" />
                 </button>
             </Youtube>
@@ -65,7 +65,7 @@
                     class="w-full h-full object-cover rounded-lg"
                     src="/img/photos_62cd590d8fbde.png"
                 />
-                <button type="button" name="play">
+                <button aria-pressed="false" type="button" name="play">
                     <img class="w-16" src="/icons/youtube.svg" alt="youtube" />
                 </button>
             </Youtube>
@@ -82,7 +82,7 @@
                     class="w-full h-full object-cover rounded-lg"
                     src="/img/photos_62bc714584778.png"
                 />
-                <button type="button" name="play">
+                <button aria-pressed="false" type="button" name="play">
                     <img class="w-16" src="/icons/youtube.svg" alt="youtube" />
                 </button>
             </Youtube>
@@ -100,7 +100,7 @@
                     class="w-full h-full object-cover rounded-lg"
                     src="/img/photos_62bc714584778.png"
                 />
-                <button type="button" name="play">
+                <button aria-pressed="false" type="button" name="play">
                     <img class="w-16" src="/icons/youtube.svg" alt="youtube" />
                 </button>
             </Youtube>

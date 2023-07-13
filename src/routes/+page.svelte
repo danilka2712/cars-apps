@@ -111,6 +111,10 @@
 
 <svelte:head>
     <title>Выкуп авто | Омск</title>
+    <meta
+        name="description"
+        content="Выкуп авто, Омск, продажа автомобилей, автовыкуп, автомобиль, деньги, срочный выкуп"
+    />
 </svelte:head>
 <section
     id="main"
@@ -286,13 +290,13 @@
                 >
                     1
                 </div>
-                <h3
+                <h2
                     class="lg:text-2xl
                 text-xl
                 font-medium"
                 >
                     Совместная сделка
-                </h3>
+                </h2>
             </div>
             <p class=" text-black/70 lg:text-lg">
                 Вы оставляете заявку, указываете данные об авто и контактный
@@ -307,12 +311,12 @@
                 >
                     2
                 </div>
-                <h3
+                <h2
                     class="lg:text-2xl
                 text-xl font-medium"
                 >
                     Совместная сделка
-                </h3>
+                </h2>
             </div>
             <p class=" text-black/70 lg:text-lg">
                 Вы оставляете заявку, указываете данные об авто и контактный
@@ -327,12 +331,12 @@
                 >
                     3
                 </div>
-                <h3
+                <h2
                     class="lg:text-2xl
                 text-xl font-medium"
                 >
                     Совместная сделка
-                </h3>
+                </h2>
             </div>
             <p class=" text-black/70 lg:text-lg">
                 Вы оставляете заявку, указываете данные об авто и контактный
@@ -348,10 +352,10 @@
             <img class="h-48 object-cover lg:h-full" src="/cars.png" alt="" />
         </div>
         <div class="lg:w-1/2">
-            <h3 class="lg:text-5xl text-3xl font-medium mb-4">
+            <h2 class="lg:text-5xl text-3xl font-medium mb-4">
                 <span class="text-green-600">Марки автомобилей,</span> которые мы
                 выкупаем
-            </h3>
+            </h2>
             <p class="lg:text-lg text-black/70">
                 На самом деле мы выкупаем любые марки автомобилей, но вы все
                 равно можете найти свой любимый логотип.
@@ -417,12 +421,12 @@
                 >
                     <img src="icons/flash.svg" alt="flash" />
                 </div>
-                <h3
+                <h2
                     class="lg:text-2xl
                 text-xl font-medium"
                 >
                     Скорость
-                </h3>
+                </h2>
             </div>
             <p class=" text-black/70 lg:text-lg">
                 Отвечаем в течение 10-15 минут. Приезжаем на место оценки и
@@ -436,12 +440,12 @@
                 >
                     <img src="icons/thumbs-up.svg" alt="thumbs-up" />
                 </div>
-                <h3
+                <h2
                     class="lg:text-2xl
                 text-xl font-medium"
                 >
                     Честность
-                </h3>
+                </h2>
             </div>
             <p class=" text-black/70 lg:text-lg">
                 Справедливо оцениваем автомобиль — можем предложить до 94% от
@@ -459,12 +463,12 @@
                         alt="coins-stacked"
                     />
                 </div>
-                <h3
+                <h2
                     class="lg:text-2xl
                 text-xl font-medium"
                 >
                     Выгодность
-                </h3>
+                </h2>
             </div>
             <p class=" text-black/70 lg:text-lg">
                 Бесплатно забираем автомобиль на эвакуаторе из любой части
