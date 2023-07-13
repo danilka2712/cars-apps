@@ -5,9 +5,10 @@
     import Swiper from "$lib/components/swiper/swiper.svelte";
     import { onMount } from "svelte";
     import { message } from "../../store";
+    import type { telegramMessage } from "../../interface";
     let map;
 
-    async function sendTelegramMessage(message) {
+    async function sendTelegramMessage(message: telegramMessage) {
         buttonSumbit = "Отправка...";
         buttonActive = true;
         const token = "6054894674:AAGe7n3CbqnpLTAAxg_wjJRNsW-klai_cyg";

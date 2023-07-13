@@ -5,9 +5,12 @@
     import Swiper from "$lib/components/swiper/swiper.svelte";
     import { onMount } from "svelte";
     import { message } from "../store";
+    import type { telegramMessage } from "../interface";
+
+    let years = [1995, 2002, 2009, 2016, 2023];
     let map;
 
-    async function sendTelegramMessage(message) {
+    async function sendTelegramMessage(message: telegramMessage) {
         buttonSumbit = "Отправка...";
         buttonActive = true;
         const token = "6054894674:AAGe7n3CbqnpLTAAxg_wjJRNsW-klai_cyg";
@@ -125,7 +128,7 @@
     class="lg:mx-auto mx-4 lg:flex lg:max-w-7xl lg:items-center lg:justify-between lg:px-0"
 >
     <div class="lg:w-1/2">
-        <div class="">
+        <div>
             <h1 class="lg:text-5xl text-3xl font-medium mb-4">
                 Выкуп авто в <span class="text-green-600">Омске</span> и
                 <span class="text-green-600">Омской области</span>
@@ -176,7 +179,7 @@
                 <Input
                     bind:text={$message.car}
                     title="Марка автомобиля*"
-                    placeholder="Например, Volvo"
+                    placeholder="Например, Renault Logan"
                 />
                 <div>
                     <label for="customRange2" class="text-gray-700"
@@ -193,12 +196,9 @@
                     />
                     <div>
                         <ul class="flex justify-between 1 text-[12px]">
-                            <li>1991</li>
-                            <li>2002</li>
-
-                            <li>2009</li>
-                            <li>2016</li>
-                            <li>2023</li>
+                            {#each years as year}
+                                <li>{year}</li>
+                            {/each}
                         </ul>
                     </div>
                 </div>
