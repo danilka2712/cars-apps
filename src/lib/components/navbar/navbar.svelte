@@ -119,9 +119,24 @@
                     <div class="-my-6 divide-y divide-gray-500/10">
                         <div class="space-y-2 py-6 p-4">
                             <div class="-mx-3">
+                                <a
+                                    class="lg:text-lg font-semibold text-black/70"
+                                    href="tel:+73812592639">+7 3812 592 639</a
+                                >
+                                <p class="w-80 mt-3 lg:text-lg">
+                                    Работаем с 8:00 до 22:00, без выходных, для
+                                    вашего удобства.
+                                </p>
+                                <p
+                                    class="lg:text-lg font-semibold mt-4 text-black/70"
+                                >
+                                    Омская область, г. Омск
+                                </p>
+                            </div>
+                            <div class="-mx-3 pt-12 divide-y">
                                 {#each menus as menu}
                                     <a
-                                        class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-gray-900 hover:bg-gray-50"
+                                        class="-mx-3 block rounded-lg px-3 py-3 text-base font-medium leading-7 text-gray-900 hover:bg-gray-50"
                                         href={menu.href}>{menu.name}</a
                                     >
                                 {/each}
