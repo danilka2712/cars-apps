@@ -2,35 +2,23 @@
     const menus = [
         {
             name: "Быстрая продажа авто без объявления на «Авито» и «Дроме»",
-            href: "",
+            href: "/",
         },
         {
             name: "Выкуп запретного авто с ограничениями и без документов",
-            href: "",
+            href: "vykup-zapretnogo-avto-s-ogranicheniyami-i-bez-dokumentov",
         },
         {
             name: "Выкуп битого авто",
-            href: "",
-        },
-        {
-            name: "Выкуп битого авто",
-            href: "",
-        },
-        {
-            name: "Выкуп автомобиля в кредите",
-            href: "",
+            href: "/vykup-bitogo-avto",
         },
         {
             name: "Выкуп авто на металлолом",
-            href: "",
+            href: "/vykup-avto-na-metallolom",
         },
         {
             name: "Выкуп спецтехники и большегрузов",
-            href: "",
-        },
-        {
-            name: "Выкуп авто после смерти хозяина",
-            href: "",
+            href: "/vykup-spectehniki-i-bolshegruzov",
         },
     ];
 </script>
@@ -57,7 +45,7 @@
                 class="lg:w-2/3 grid lg:grid-cols-2 lg:gap-4 lg:pl-12 mt-8 lg:mt-0 divide-y lg:divide-y-0"
             >
                 {#each menus as menu}
-                    <a class="lg:py-0 py-3" href="">{menu.name}</a>
+                    <a class="lg:py-0 py-3" href={menu.href}>{menu.name}</a>
                 {/each}
             </div>
         </div>

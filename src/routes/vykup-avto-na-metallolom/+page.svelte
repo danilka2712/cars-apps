@@ -4,7 +4,7 @@
     import SwiperReviews from "$lib/components/swiper-reviews/swiper-reviews.svelte";
     import Swiper from "$lib/components/swiper/swiper.svelte";
     import { onMount } from "svelte";
-    import { message } from "../store";
+    import { message } from "../../store";
     let map;
 
     async function sendTelegramMessage(message) {
@@ -113,11 +113,13 @@
     <title>Выкуп авто | Омск</title>
     <meta
         name="description"
-        content="Срочный выкуп авто в любом состоянии. Выезжаем на осмотр сразу после обращения! · Более. 200 положительных отзывов. Выкупаем. дороже. конкурентов."
+        content="Выкуп автомобиля на металлолом в Омске.
+        Справедливо оцениваем стоимость автомобиля в интересах обеих сторон.
+        Бесплатно забираем авто на эвакуаторе в пределах Омской области."
     />
     <meta
         name="keywords"
-        content="Выкуп авто, Продажа автомобилей, Автовыкуп, Автомобиль, срочный выкуп,битое авто, залоговое авто, автомобиль не на ходу"
+        content="Выкуп автомобиля, автомобиль на металлолом, Автовыкуп, автомобиль, срочный выкуп,битый автомобиль, залоговый автомобиль, автомобиль не на ходу"
     />
 </svelte:head>
 <section
@@ -127,12 +129,14 @@
     <div class="lg:w-1/2">
         <div class="">
             <h1 class="lg:text-5xl text-3xl font-medium mb-4">
-                Выкуп авто в <span class="text-green-600">Омске</span> и
-                <span class="text-green-600">Омской области</span>
+                Выкуп автомобиля на металлолом<span class="text-green-600"
+                    >в Омске</span
+                >
             </h1>
             <p class="lg:text-lg text-black/70">
-                Быстро продайте автомобиль без выставления объявления на «Авито»
-                или «Дроме», если вам срочно нужны деньги.
+                Хотите продать автомобиль, который годен только на металлолом?
+                Честно оценим его стоимость и купим неисправный транспорт
+                сегодня же.
             </p>
         </div>
         <div class="mt-8">

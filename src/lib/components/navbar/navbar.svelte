@@ -11,6 +11,28 @@
             document.body.style.overflow = "auto";
         }
     });
+    const menus = [
+        {
+            name: "Быстрая продажа авто без объявления на «Авито» и «Дроме»",
+            href: "/",
+        },
+        {
+            name: "Выкуп запретного авто с ограничениями и без документов",
+            href: "vykup-zapretnogo-avto-s-ogranicheniyami-i-bez-dokumentov",
+        },
+        {
+            name: "Выкуп битого авто",
+            href: "/vykup-bitogo-avto",
+        },
+        {
+            name: "Выкуп авто на металлолом",
+            href: "/vykup-avto-na-metallolom",
+        },
+        {
+            name: "Выкуп спецтехники и большегрузов",
+            href: "/vykup-spectehniki-i-bolshegruzov",
+        },
+    ];
 </script>
 
 <header class="">
@@ -19,7 +41,7 @@
         aria-label="Global"
     >
         <div class="flex lg:flex-1 z-40">
-            <a href="#" class="-m-1.5 p-1.5">
+            <a href="/" class="-m-1.5 p-1.5">
                 <span class="sr-only">Выкуп авто</span>
                 <img class="h-10 w-auto" src="/logotype.svg" alt="" />
             </a>
@@ -97,22 +119,12 @@
                     <div class="-my-6 divide-y divide-gray-500/10">
                         <div class="space-y-2 py-6 p-4">
                             <div class="-mx-3">
-                                <a
-                                    href="#"
-                                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-gray-900 hover:bg-gray-50"
-                                    >Оставить заявку, чтобы узнать сумму выкупа
-                                    автомобиля</a
-                                >
-                                <a
-                                    href="#"
-                                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-gray-900 hover:bg-gray-50"
-                                    >Главная страница</a
-                                >
-                                <a
-                                    href="#"
-                                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-gray-900 hover:bg-gray-50"
-                                    >Выкупленные авто</a
-                                >
+                                {#each menus as menu}
+                                    <a
+                                        class="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-gray-900 hover:bg-gray-50"
+                                        href={menu.href}>{menu.name}</a
+                                    >
+                                {/each}
                             </div>
                         </div>
                     </div>
