@@ -48,8 +48,8 @@
                     class="w-full h-full object-cover rounded-lg"
                     src="/img/photos_627e0b4b0ec0d.png"
                 />
-                <button>
-                    <img class="w-16" src="/icons/youtube.svg" alt="" />
+                <button type="button" name="play">
+                    <img class="w-16" src="/icons/youtube.svg" alt="youtube" />
                 </button>
             </Youtube>
         </div>
@@ -65,8 +65,8 @@
                     class="w-full h-full object-cover rounded-lg"
                     src="/img/photos_62cd590d8fbde.png"
                 />
-                <button>
-                    <img class="w-16" src="/icons/youtube.svg" alt="" />
+                <button type="button" name="play">
+                    <img class="w-16" src="/icons/youtube.svg" alt="youtube" />
                 </button>
             </Youtube>
         </div>
@@ -82,8 +82,8 @@
                     class="w-full h-full object-cover rounded-lg"
                     src="/img/photos_62bc714584778.png"
                 />
-                <button>
-                    <img class="w-16" src="/icons/youtube.svg" alt="" />
+                <button type="button" name="play">
+                    <img class="w-16" src="/icons/youtube.svg" alt="youtube" />
                 </button>
             </Youtube>
         </div>
@@ -100,8 +100,8 @@
                     class="w-full h-full object-cover rounded-lg"
                     src="/img/photos_62bc714584778.png"
                 />
-                <button>
-                    <img class="w-16" src="/icons/youtube.svg" alt="" />
+                <button type="button" name="play">
+                    <img class="w-16" src="/icons/youtube.svg" alt="youtube" />
                 </button>
             </Youtube>
         </div>

@@ -246,12 +246,18 @@
         </div>
         <div class="lg:flex hidden justify-end items-end lg:w-1/3 gap-16">
             <button
+                aria-pressed="false"
+                type="button"
+                name="arrow-left"
                 class="flex gap-3 items-center text-green-600 hover:text-green-700 font-medium button-prev hover:-translate-x-2 p-3 transition duration-300 ease-in-out text-sm"
             >
                 <img class="h-[9px]" src="/icons/arrowsleft.svg" alt="" />
                 Назад
             </button>
             <button
+                aria-pressed="false"
+                type="button"
+                name="arrow-right"
                 class="flex gap-3 items-center text-green-600 hover:text-green-700 font-medium button-next hover:translate-x-2 p-3 transition duration-300 ease-in-out text-sm"
             >
                 Вперед
@@ -366,19 +372,29 @@
         </div>
         <div class="lg:flex hidden justify-end items-end w-1/3 gap-16">
             <button
+                aria-pressed="false"
+                type="button"
+                name="arrow-left"
                 class="flex gap-3 items-center text-green-600 hover:text-green-700 font-medium prev-button hover:-translate-x-2 p-3 transition duration-300 ease-in-out text-sm"
             >
-                <img class="h-[9px]" src="/icons/arrowsleft.svg" alt="" />
+                <img
+                    class="h-[9px]"
+                    src="/icons/arrowsleft.svg"
+                    alt="arrow-left"
+                />
                 Назад
             </button>
             <button
+                aria-pressed="false"
+                type="button"
+                name="arrow-right"
                 class="flex gap-3 items-center text-green-600 hover:text-green-700 font-medium next-button hover:translate-x-2 p-3 transition duration-300 ease-in-out text-sm"
             >
                 Вперед
                 <img
                     class="h-[9px] rotate-180"
                     src="/icons/arrowsleft.svg"
-                    alt=""
+                    alt="arrow-right"
                 />
             </button>
         </div>
@@ -486,6 +502,9 @@
             {/if}
         </ul>
         <button
+            aria-pressed="false"
+            type="button"
+            name="overflow"
             class="text-green-600 w-fit hover:text-green-700 font-medium mt-6 flex lg:hidden"
             on:click={toggleShowAll}
         >
