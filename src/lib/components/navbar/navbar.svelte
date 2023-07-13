@@ -117,7 +117,7 @@
             >
                 <div class="mt-16 flow-root">
                     <div class="-my-6 divide-y divide-gray-500/10">
-                        <div class="space-y-2 py-6 p-4">
+                        <div class="space-y-2 py-6 p-4 pt-14">
                             <div class="-mx-3">
                                 <a
                                     class="lg:text-lg font-semibold text-black/70"
