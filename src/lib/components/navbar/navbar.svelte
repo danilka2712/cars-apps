@@ -6,7 +6,7 @@
 
 <header class="">
     <nav
-        class="mx-auto flex max-w-7xl items-center justify-between p-4 py-8 lg:py-4 lg:px-0"
+        class="mx-auto fixed lg:relative flex max-w-7xl items-center justify-between p-4 py-8 lg:py-4 lg:px-0"
         aria-label="Global"
     >
         <div class="flex lg:flex-1 z-40">
