@@ -77,8 +77,8 @@
             <div class="fixed inset-0 z-10" />
             <div
                 transition:slide={{
-                    delay: 250,
-                    duration: 600,
+                    delay: 600,
+                    duration: 250,
                     easing: quintInOut,
                     axis: "y",
                 }}
