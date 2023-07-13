@@ -218,7 +218,6 @@
                     ]}
                     bind:addOption={$message.connection}
                 />
-                {$message.phone}
                 <Input
                     title="Номер для связи*"
                     placeholder="Например, 8-999-888-888"

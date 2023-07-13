@@ -36,10 +36,34 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">
+            <iframe
+                width="420"
+                height="315"
+                src="https://www.youtube.com/embed/NaTjoNHdd3Q"
+            />
+        </div>
+        <div class="swiper-slide">
+            <iframe
+                width="420"
+                height="315"
+                src="https://www.youtube.com/embed/RpzmtDH3u0Q"
+            />
+        </div>
+        <div class="swiper-slide">
+            <iframe
+                width="420"
+                height="315"
+                src="https://www.youtube.com/embed/W8IX8XouZE4"
+            />
+        </div>
+        <div class="swiper-slide">
+            <iframe
+                width="420"
+                height="315"
+                src="https://www.youtube.com/embed/RpzmtDH3u0Q"
+            />
+        </div>
     </div>
 </div>
 
