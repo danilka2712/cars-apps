@@ -136,6 +136,8 @@
                             <div class="-mx-3 pt-12 divide-y">
                                 {#each menus as menu}
                                     <a
+                                        on:click={() =>
+                                            (mobileMenuOpen = false)}
                                         class="-mx-3 block rounded-lg px-3 py-3 text-sm font-medium leading-7 text-gray-900 hover:bg-gray-50"
                                         href={menu.href}>{menu.name}</a
                                     >
