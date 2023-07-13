@@ -58,7 +58,11 @@
                         alt=""
                     />
                 </div>
-                <p class="pt-2 text-lg font-semibold">{item.title}</p>
+                <p
+                    class="lg:pt-2 pt-8 lg:text-lg lg:p-0 p-6 text-xl font-semibold"
+                >
+                    {item.title}
+                </p>
             </div>
         {/each}
     </div>
@@ -80,8 +84,7 @@
             background: #ffffff;
 
             display: flex;
-            justify-content: center;
-            align-items: center;
+            flex-direction: column;
         }
     }
     @media (min-width: 1200px) {
