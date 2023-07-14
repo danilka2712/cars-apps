@@ -62,9 +62,7 @@
             });
 
             // @ts-ignore
-            DG.marker([55.018009, 73.35006])
-                .addTo(map)
-                .bindPopup("Омск, Шукшина 11");
+            DG.marker([55.018009, 73.35006]).addTo(map).bindPopup("Омск");
         });
         if (/Mobi|Android/i.test(navigator.userAgent)) {
             showAll = false;

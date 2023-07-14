@@ -8,7 +8,7 @@
     import type { telegramMessage } from "../../interface";
     let map;
 
-    async function sendTelegramMessage(message:telegramMessage) {
+    async function sendTelegramMessage(message: telegramMessage) {
         buttonSumbit = "Отправка...";
         buttonActive = true;
         const token = "6054894674:AAGe7n3CbqnpLTAAxg_wjJRNsW-klai_cyg";
@@ -60,9 +60,7 @@
             });
 
             // @ts-ignore
-            DG.marker([55.018009, 73.35006])
-                .addTo(map)
-                .bindPopup("Омск, Шукшина 11");
+            DG.marker([55.018009, 73.35006]).addTo(map).bindPopup("Омск");
         });
         if (/Mobi|Android/i.test(navigator.userAgent)) {
             showAll = false;
