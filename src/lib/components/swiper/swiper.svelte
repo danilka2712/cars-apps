@@ -15,6 +15,9 @@
                     grid: {
                         rows: 1,
                     },
+                    pagination: {
+                        el: ".swiper-pagination",
+                    },
                 },
                 640: {
                     slidesPerView: 5,
@@ -24,6 +27,7 @@
                     spaceBetween: 30,
                 },
             },
+
             navigation: {
                 nextEl: ".button-next",
                 prevEl: ".button-prev",
@@ -69,6 +73,7 @@
             </div>
         {/each}
     </div>
+    <div class="swiper-pagination marker:text-green-600" />
 </div>
 
 <style>
@@ -78,8 +83,11 @@
             height: 45vh;
             margin-left: auto;
             margin-right: auto;
+            padding-bottom: 50px;
         }
-
+        .swiper-pagination {
+            --swiper-theme-color: #16a34a;
+        }
         .swiper-slide {
             border-radius: 20px;
             text-align: start;
