@@ -55,7 +55,7 @@
 </script>
 
 <div class="swiper mySwiper lg:mt-20 mt-6">
-    <!-- Additional required wrapper -->
+    <!-- Additional required wrappr -->
     <div class="swiper-wrapper">
         {#each items as item}
             <div class="swiper-slide">
