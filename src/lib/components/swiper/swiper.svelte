@@ -17,6 +17,7 @@
                     },
                     pagination: {
                         el: ".swiper-pagination",
+                        dynamicBullets: true,
                     },
                 },
                 640: {
