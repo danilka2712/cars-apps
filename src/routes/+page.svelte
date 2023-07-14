@@ -137,6 +137,11 @@
                 Быстро продайте автомобиль без выставления объявления на «Авито»
                 или «Дроме», если вам срочно нужны деньги.
             </p>
+            <a
+                href="tel:+73812592639"
+                class=" font-semibold sm:hidden leading-6 text-white bg-green-600 p-2"
+                >+7 3812 592 639
+            </a>
         </div>
         <div class="mt-8">
             <h1 class="mb-4 font-semibold lg:text-lg">
