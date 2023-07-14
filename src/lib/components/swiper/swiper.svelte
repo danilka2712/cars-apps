@@ -66,9 +66,7 @@
                         alt=""
                     />
                 </div>
-                <p
-                    class="lg:pt-2 pt-8 lg:text-lg lg:p-0 p-6 text-xl font-semibold"
-                >
+                <p class="lg:pt-2 lg:text-lg lg:p-0 p-6 text-xl font-semibold">
                     {item.title}
                 </p>
             </div>
