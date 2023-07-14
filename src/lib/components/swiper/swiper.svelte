@@ -72,7 +72,7 @@
             </div>
         {/each}
     </div>
-    <div class="swiper-pagination marker:text-green-600" />
+    <div class="swiper-pagination" />
 </div>
 
 <style>

@@ -18,6 +18,10 @@
                     grid: {
                         rows: 1,
                     },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        dynamicBullets: true,
+                    },
                 },
                 576: {
                     slidesPerView: 3,
@@ -106,9 +110,18 @@
             </Youtube>
         </div>
     </div>
+    <div class="swiper-pagination" />
 </div>
 
 <style>
+    @media (max-width: 576px) {
+        .swiper {
+            padding-bottom: 50px;
+        }
+        .swiper-pagination {
+            --swiper-theme-color: #16a34a;
+        }
+    }
     .swiper {
         width: 100%;
         height: fit;
