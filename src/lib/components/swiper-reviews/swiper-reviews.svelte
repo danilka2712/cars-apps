@@ -42,7 +42,7 @@
         <!-- Slides -->
         <div class="swiper-slide">
             <Youtube
-                id="RpzmtDh2u0Q"
+                id="RpzmtDH3u0Q"
                 animations={false}
                 --overlay-bg-color="#ffffff0"
             >
@@ -95,7 +95,6 @@
             <Youtube
                 id="W8IX8XouZE4"
                 animations={false}
-                --title-color="#111111"
                 --overlay-bg-color="#ffffff0"
             >
                 <img

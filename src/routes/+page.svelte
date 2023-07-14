@@ -410,7 +410,7 @@
     <SwiperReviews />
 </section>
 
-<section class="lg:mb-32 mb-24 lg:mt-24 mt-14 max-w-7xl lg:mx-auto mx-4">
+<section class="lg:mb-32 mb-24 lg:mt-24 mt-12 max-w-7xl lg:mx-auto mx-4">
     <div class="lg:w-1/2">
         <h1 class="lg:text-5xl text-3xl font-medium lg:mb-14 mb-8">
             Почему к нам стоит
