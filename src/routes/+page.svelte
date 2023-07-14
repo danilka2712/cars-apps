@@ -42,7 +42,7 @@
                 setTimeout(() => {
                     buttonSumbit = "Отправить заявку";
                     buttonActive = false;
-                }, 5000);
+                }, 20000);
             } else {
                 alert("Ошибка, попробуйте еще раз!");
             }
