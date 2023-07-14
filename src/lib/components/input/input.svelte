@@ -17,6 +17,7 @@
         ></span
     >
     <input
+        required
         bind:value={text}
         type="text"
         class="

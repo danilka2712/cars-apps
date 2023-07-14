@@ -7,6 +7,7 @@
 <label class="block">
     <span class="text-gray-700">{title}</span>
     <select
+        required
         bind:value={addOption}
         class="
         block
