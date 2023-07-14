@@ -128,20 +128,25 @@
     class="lg:mx-auto mx-4 lg:flex lg:max-w-7xl lg:items-center lg:justify-between lg:px-0"
 >
     <div class="lg:w-1/2">
-        <div>
+        <div class="">
             <h1 class="lg:text-5xl text-3xl font-medium mb-4">
                 Выкуп авто в <span class="text-green-600">Омске</span> и
                 <span class="text-green-600">Омской области</span>
             </h1>
-            <p class="lg:text-lg text-black/70">
-                Быстро продайте автомобиль без выставления объявления на «Авито»
+            <p class="lg:text-lg text-black/70 mb-6">
+                Быстро продайте автомобиль, без публикации объявления на «Авито»
                 или «Дроме», если вам срочно нужны деньги.
             </p>
-            <a
-                href="tel:+73812592639"
-                class=" font-semibold sm:hidden leading-6 text-white bg-green-600 p-2"
-                >+7 3812 592 639
-            </a>
+            <button
+                class="font-semibold rounded-lg sm:hidden leading-6 text-white bg-green-600 w-full p-3"
+            >
+                <a
+                    href="tel:+73812592639"
+                    class="flex items-center justify-center gap-2"
+                    ><img src="/icons/phone-call-01.svg" alt="" />+7 3812 592
+                    639
+                </a>
+            </button>
         </div>
         <div class="mt-8">
             <h1 class="mb-4 font-semibold lg:text-lg">
