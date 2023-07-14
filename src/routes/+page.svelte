@@ -242,7 +242,7 @@
     </div>
 </section>
 
-<section id="purchased" class="mb-16 lg:mt-32 mt-20 mx-4 lg:mx-0">
+<section id="purchased" class="mb-12 lg:mt-32 mt-20 mx-4 lg:mx-0">
     <div class=" max-w-7xl mx-auto flex">
         <div class="lg:w-2/3">
             <h1 class="lg:text-5xl text-3xl font-medium pb-4">
