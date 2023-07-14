@@ -134,8 +134,8 @@
                 <span class="text-green-600">Омской области</span>
             </h1>
             <p class="lg:text-lg text-black/70 mb-6">
-                Быстро продайте автомобиль, без публикации объявления на «Авито»
-                или «Дроме», если вам срочно нужны деньги.
+                Быстрая продажа автомобиля, без публикации объявления на
+                сторонних сервисах и дополнительных усилий.
             </p>
             <button
                 class="font-semibold rounded-lg sm:hidden leading-6 text-white bg-green-600 w-full p-3"
