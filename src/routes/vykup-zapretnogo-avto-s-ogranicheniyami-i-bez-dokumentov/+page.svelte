@@ -55,12 +55,14 @@
         DG.then(function () {
             // @ts-ignore
             map = DG.map("map", {
-                center: [55.018009, 73.35006],
+                center: [54.99410750336992, 73.37092667653471],
                 zoom: 13,
             });
 
             // @ts-ignore
-            DG.marker([55.018009, 73.35006]).addTo(map).bindPopup("Омск");
+            DG.marker([54.99410750336992, 73.37092667653471])
+                .addTo(map)
+                .bindPopup("Омск");
         });
         if (/Mobi|Android/i.test(navigator.userAgent)) {
             showAll = false;
