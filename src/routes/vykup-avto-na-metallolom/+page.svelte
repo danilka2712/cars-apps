@@ -130,7 +130,7 @@
     <div class="lg:w-1/2">
         <div class="">
             <h1 class="lg:text-5xl text-3xl font-medium mb-4">
-                Выкуп автомобиля на металлолом<span class="text-green-600"
+                Выкуп автомобиля на металлолом <span class="text-green-600"
                     >в Омске</span
                 >
             </h1>
