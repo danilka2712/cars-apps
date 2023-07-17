@@ -11,7 +11,7 @@
     async function sendTelegramMessage(message: telegramMessage) {
         buttonSumbit = "Отправка...";
         buttonActive = true;
-        const token = "6054894674:AAGe7n3CbqnpLTAAxg_wjJRNsW-klai_cyg";
+        const token = "6323854741:AAEMA9OV63DDsASv_z-PiKmc8RQo94PRuTk";
         const chatId = "596613157";
 
         const url = `https://api.telegram.org/bot${token}/sendMessage`;
