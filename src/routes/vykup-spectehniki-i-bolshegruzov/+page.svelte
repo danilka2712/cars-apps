@@ -6,12 +6,13 @@
     import { onMount } from "svelte";
     import { message } from "../../store";
     import type { telegramMessage } from "../../interface";
+    import { env } from "$env/dynamic/public";
     let map;
 
     async function sendTelegramMessage(message: telegramMessage) {
         buttonSumbit = "Отправка...";
         buttonActive = true;
-        const token = "6323854741:AAEMA9OV63DDsASv_z-PiKmc8RQo94PRuTk";
+        const token = env.PUBLIC_TELEGRAM_TOKEN;
         const chatId = "596613157";
 
         const url = `https://api.telegram.org/bot${token}/sendMessage`;
@@ -116,10 +117,22 @@
         name="description"
         content="Срочный выкуп спецтехники в любом состоянии. Выезжаем на осмотр сразу после обращения! · Более. 200 положительных отзывов. Выкупаем. дороже. конкурентов."
     />
-    <meta
-        name="keywords"
-        content="Выкуп спецтехники, Продажа спецтехники, Автовыкуп, спецтехника, срочный выкуп,битая спецтехники, залоговая спецтехника, спецтехника не на ходу"
-    />
+    <script type="application/ld+json">
+        {
+          "@context": "http://www.schema.org",
+          "@type": "AutomotiveBusiness",
+          "name": "Выкуп авто | Омск",
+          "url": "https://vykup-auto-omsk.ru/",
+          "logo": "https://vykup-auto-omsk.ru/logotype.svg",
+          "description": "Срочный выкуп спецтехники в любом состоянии. Выезжаем на осмотр сразу после обращения! · Более. 200 положительных отзывов. Выкупаем. дороже. конкурентов.",
+          "address": {
+             "@type": "PostalAddress",
+             "addressRegion": "Омск",
+             "addressCountry": "Россия"
+          },
+          "telephone": "+7 3812 592 639"
+        }
+    </script>
 </svelte:head>
 <section
     id="main"

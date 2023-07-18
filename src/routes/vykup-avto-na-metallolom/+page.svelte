@@ -6,12 +6,12 @@
     import { onMount } from "svelte";
     import { message } from "../../store";
     import type { telegramMessage } from "../../interface";
+    import { env } from "$env/dynamic/public";
     let map;
-
     async function sendTelegramMessage(message: telegramMessage) {
         buttonSumbit = "Отправка...";
         buttonActive = true;
-        const token = "6323854741:AAEMA9OV63DDsASv_z-PiKmc8RQo94PRuTk";
+        const token = env.PUBLIC_TELEGRAM_TOKEN;
         const chatId = "596613157";
 
         const url = `https://api.telegram.org/bot${token}/sendMessage`;
@@ -118,10 +118,22 @@
         Справедливо оцениваем стоимость автомобиля в интересах обеих сторон.
         Бесплатно забираем авто на эвакуаторе в пределах Омской области."
     />
-    <meta
-        name="keywords"
-        content="Выкуп автомобиля, автомобиль на металлолом, Автовыкуп, автомобиль, срочный выкуп,битый автомобиль, залоговый автомобиль, автомобиль не на ходу"
-    />
+    <script type="application/ld+json">
+        {
+          "@context": "http://www.schema.org",
+          "@type": "AutomotiveBusiness",
+          "name": "Выкуп авто | Омск",
+          "url": "https://vykup-auto-omsk.ru/",
+          "logo": "https://vykup-auto-omsk.ru/logotype.svg",
+          "description": "Выкуп автомобиля на металлолом в Омске.Справедливо оцениваем стоимость автомобиля в интересах обеих сторон.Бесплатно забираем авто на эвакуаторе в пределах Омской области.",
+          "address": {
+             "@type": "PostalAddress",
+             "addressRegion": "Омск",
+             "addressCountry": "Россия"
+          },
+          "telephone": "+7 3812 592 639"
+        }
+    </script>
 </svelte:head>
 <section
     id="main"
