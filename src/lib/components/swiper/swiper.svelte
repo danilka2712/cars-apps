@@ -21,6 +21,13 @@
                     },
                 },
                 640: {
+                    slidesPerView: 3,
+                    grid: {
+                        rows: 1,
+                    },
+                    spaceBetween: 30,
+                },
+                1024: {
                     slidesPerView: 5,
                     grid: {
                         rows: 2,
@@ -76,7 +83,7 @@
 </div>
 
 <style>
-    @media (max-width: 576px) {
+    @media (min-width: 860px) {
         .swiper {
             width: 100%;
             height: 45vh;
@@ -97,7 +104,7 @@
             flex-direction: column;
         }
     }
-    @media (min-width: 1200px) {
+    @media (min-width: 1024px) {
         .swiper-slide:nth-child(4n + 3) {
             margin-top: 100px;
         }
