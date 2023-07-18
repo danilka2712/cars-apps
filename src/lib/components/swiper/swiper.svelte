@@ -83,7 +83,7 @@
 </div>
 
 <style>
-    @media (min-width: 860px) {
+    @media (max-width: 1024px) {
         .swiper {
             width: 100%;
             height: 45vh;
