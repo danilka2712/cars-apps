@@ -15,7 +15,7 @@
         buttonSumbit = "Отправка...";
         buttonActive = true;
         const token = env.PUBLIC_TELEGRAM_TOKEN;
-        const chatId = "596613157";
+        const chatId = "1676236208";
 
         const url = `https://api.telegram.org/bot${token}/sendMessage`;
         const options = {
